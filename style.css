@@ -1,12 +1,10 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     background-color: #EDEFEE;
     font-family: 'Markazi Text', serif;
-    margin: auto;
-    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
