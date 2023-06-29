@@ -9,10 +9,14 @@
     <meta name="author" content="Little Lemon Restaurant">
 
     <!-- Include your CSS files here -->
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -50,6 +54,71 @@
             </div>
         </section>
 
+        <section class="food-images" id="food-images">
+            <h1 class="heading">this week's <span>special</span></h1>
+
+            <div class="swiper food-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/Moussaka.png" alt="">
+                        <h3>Moussaka $12.99</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/Paella.png" alt="">
+                        <h3>Paella $11.99</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/Tabbouleh.png" alt="">
+                        <h3>Tabbouleh $13.99</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/Falafel.png" alt="">
+                        <h3>Falafel $12.45</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/greek salad.png" alt="">
+                        <h3>Greek Salad $13.25</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="./assets/food-images/Bruschetta.png" alt="">
+                        <h3>Bruschetta $15.65</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, veritatis quibusdam
+                            soluta
+                            sunt vel adipisci!</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
         <!-- Section 2: Main Content -->
         <section class="container">
 
@@ -60,7 +129,10 @@
                     <h2>About Us</h2>
                     <img src="./assets/images/About us page-pana.svg" style="width: 100px;" alt="Menu Icon">
                     <p>
-                        Little Lemon, founded by Italian brothers Mario and Adrian, blends Italian tradition with vibrant Mediterranean flavors. Mario's culinary expertise and family recipes create an authentic menu, while Adrian's marketing expands its horizons. Experience their remarkable fusion of tastes at Little Lemon, where passion meets flavor in a unique dining experience.
+                        Little Lemon, founded by Italian brothers Mario and Adrian, blends Italian tradition with
+                        vibrant Mediterranean flavors. Mario's culinary expertise and family recipes create an authentic
+                        menu, while Adrian's marketing expands its horizons. Experience their remarkable fusion of
+                        tastes at Little Lemon, where passion meets flavor in a unique dining experience.
                     </p>
                 </article>
 
@@ -80,7 +152,8 @@
                 <!-- Article 2: Book a Table -->
                 <article class="box">
                     <h2>Book a Table</h2>
-                    <img src="./assets/images/Valentine's Day dinner-amico.svg" style="width: 100px;" alt="Dining Table Icon">
+                    <img src="./assets/images/Valentine's Day dinner-amico.svg" style="width: 100px;"
+                        alt="Dining Table Icon">
                     <p>
                         Reserve your table at Little Lemon for an unforgettable dining experience. Immerse yourself in
                         our
@@ -182,6 +255,9 @@
     </footer>
 
     <!-- Include your JavaScript files here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    
 
 </body>
 

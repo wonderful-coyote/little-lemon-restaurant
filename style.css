@@ -3,6 +3,10 @@
 :root {
     --purple: #800080;
     --pink: #f83292;
+    --white: #ffff;
+    --light-white: #aaa;
+    --black: #1a1919;
+    --light-bg: #4b4b4b;
 }
 
 * {
@@ -25,7 +29,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 0 9%;
     padding-top: 7.5rem;
 }
@@ -120,6 +124,56 @@ header label {
     color: #666;
     padding: 1rem 0;
 }
+
+.heading {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--purple);
+    text-transform: uppercase;
+}
+
+.heading span {
+    color: var(--pink);
+    text-transform: uppercase;
+}
+
+
+.food-images .slide {
+    background-color: var(--light-white);
+    border-radius: 0.9rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.food-images .slide img {
+    height: 25rem;
+    width: 25rem;
+}
+
+.food-images .slide h3 {
+    margin: 1.5rem;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.food-images .slide p {
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-bg);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--pink);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--purple);
+}
+
+
 
 .container .box-container {
     display: flex;
